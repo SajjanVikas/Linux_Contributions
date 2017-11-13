@@ -1,0 +1,39 @@
+x86/acpi: Fix improper handling of SCI INT for platforms supporting only IOAPIC mode
+dax: use devm_add_action_or_reset()
+nfit: use devm_add_action_or_reset()
+ARM: EXYNOS: Add Suspend-to-RAM support for exynos5420
+ARM: EXYNOS: Refactor the pm code to use DT based lookup
+ARM: EXYNOS: Move Disabling of JPEG USE_RETENTION for exynos5250 to pmu.c
+ARM: EXYNOS: Add exynos5260 PMU compatible string to DT match table
+ARM: dts: Add PMU DT node for exynos5260 SoC
+clk: samsung: exynos5420: Setup clocks before system suspend
+ARM: dts: Add mask-tpm-reset node in exynos5800-peach-pi
+drivers/rtc/rtc-s3c.c: fix incorrect way of save/restore of S3C2410_TICNT for TYPE_S3C64XX
+drm/exynos: Consider fallback option to allocation fail
+drm/exynos: Add fallback option to get non physically contiguous memory for fb
+ARM: dts: Add RTC DT node to Exynos5420 SoC
+ARM: dts: Update the "status" property of RTC DT node for Exynos5250 SoC
+ARM: dts: Fix the RTC DT node name for Exynos5250
+ARM: dts: Add pin state information for DP HPD support to Exynos5420
+ARM: dts: Add DP controller DT node to exynos5420 SoC
+ARM: dts: Update DP controller DT Node for Exynos5 based SoCs
+ARM: dts: Add FIMD DT node to exynos5420 DTS files
+ARM: dts: Update FIMD DT node for Exynos5 SoCs
+ARM: dts: Move display-timing information inside FIMD DT node for exynos5250
+clk: samsung: Add EPLL and VPLL freq table for exynos5250 SoC
+clk: samsung: Reorder MUX registration for mout_vpllsrc
+clk: samsung: Add set_rate() clk_ops for PLL36xx
+usb: xhci: add the suspend/resume functionality
+ARM: dts: Add display timing node to exynos5250-arndale.dts
+ARM: dts: Add clock provider information for DP controller in Exynos5250 SoC
+ARM: dts: Add DT node for DP controller for Arndale Board
+drm/exynos: enable FIMD clocks
+drm/exynos: prepare FIMD clocks
+drm/exynos: change the method for getting the interrupt
+drm/exynos: enable OF_VIDEOMODE and FB_MODE_HELPERS for exynos drm fimd
+drm/exynos: Add display-timing node parsing using video helper function
+ARM: dts: Add FIMD DT binding Documentation
+ARM: dts: Add FIMD node and display timing node to exynos4412-origen.dts
+ARM: dts: Add FIMD node to exynos4
+drm/exynos: modify the compatible string for exynos fimd
+usb: dwc3: exynos: add basic suspend/resume support
